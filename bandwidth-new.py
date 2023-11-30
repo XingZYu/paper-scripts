@@ -344,7 +344,7 @@ ax1.ticklabel_format(style='sci', scilimits=(-1,2), axis='y')
 
 plt.tight_layout()
 
-plt.savefig('/Users/snake0/MasterThesis/figures/_bandwidth.pdf', dpi=300, bbox_inches='tight')
+plt.savefig('./imgs/_bandwidth.pdf', dpi=300, bbox_inches='tight')
 plt.show()
 
 plt.close()
